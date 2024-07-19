@@ -1,6 +1,6 @@
 #
 # EQUIPO 10 - ESTADISTICA DESCRIPTIVA
-# REALIZA UNA TABLA DE FRECUENCIAS PARA EL RUBRO SEXO, SITUACION LABORAL Y EDAD
+# Realiza una tabla de frecuencias para el rubro sexo, situación laboral y edad.
 #
 
 

@@ -9,7 +9,7 @@ file = "../U1_Datos_PIE1.xlsx"
 xls = pd.ExcelFile(file)
 df = pd.read_excel(file, sheet_name="Hoja1")
 
-# Se define rangos de edad, para imprimir solo 5
+# Se define rangos de edad
 age_bins = [20, 30, 40, 50, 60, 70]
 
 # Se agregan los labels para cada rango

@@ -1,14 +1,14 @@
 # Punto 2
 ## Realiza una tabla de frecuencias para el rubro sexo, situación laboral y edad.
 
-### Sexo
+### Sexo - Codigo: punto2/conteo_sexo.py
 | Sexo  | Frecuencia |
 |-------|------------|
 | Varón | 183        |
 | Mujer | 167        |
 | Total | 350        |
 
-### Situacion Laboral
+### Situacion Laboral - Codigo punto2/conteo_laboral.py
 | Situación laboral | Frecuencia |
 |-------------------|------------|
 | Ocupado           | 127        |
@@ -16,7 +16,7 @@
 | Inactivo          | 107        |
 | Total             | 350        |
 
-### Edad
+### Edad - Codigo punto2/conteo_edad.py
 | Edad | Frecuencia |
 |------|------------|
 | 45   | 17         |
@@ -63,7 +63,7 @@
 | Total | 350       |
 
 # Punto 3
-## Genera una tabla agrupando valores (realiza 5 grupos de edad) para que puedas generar a partir de ella un histograma.
+## Genera una tabla agrupando valores (realiza 5 grupos de edad) para que puedas generar a partir de ella un histograma. - Codigo: punto3/tabla_valores.py
 
 | Edad Grupo | Frecuencia |
 |------------|------------|
@@ -81,9 +81,26 @@ a. **¿Cuál es el tamaño de la muestra?** 350 encuestados
 
 b. **¿Se aplicó la encuesta a más hombres o mujeres?** Tomando en cuenta los datos del punto 2, especificamente el codigo *conteo_sexo.py*, la frecuencia indica que fueron los hombres con 183 encuestados
 
-c. **¿Cuál es el tiempo promedio que los hombres dedican a la lectura? ¿y las mujeres?**
+c. **¿Cuál es el tiempo promedio que los hombres dedican a la lectura? ¿y las mujeres?** Los hombres, con 1 hora, 53 minutos y 46 segundos - Codigo: punto4/conteo_sexo_lectura.py
 
-d. **De los encuestados ¿quiénes ven más televisión los hombres o las mujeres desempleados?**
+| Sexo  | Promedio Horas de Lectura |
+|-------|----------------------------|
+| Varón | 01:53:46                   |
+| Mujer | 01:51:27                   |
 
-e. **¿La edad es relevante para dedicar más tiempo a la lectura?**
+d. **De los encuestados ¿quiénes ven más televisión los hombres o las mujeres desempleados?** Los hombres, con 1 hora, 58 minutos y 29 segundos - Codigo: punto4/conteo_desempleo_tv.py
 
+| Sexo  | Horas de TV |
+|-------|-------------|
+| Varón | 01:58:29    |
+| Mujer | 02:17:31    |
+
+e. **¿La edad es relevante para dedicar más tiempo a la lectura?** Si, utilizando el codigo punto4/conteo_edad_lectura.py se puede apreciar que el rango de edad para dedicar mas tiempo a la lectura va de los 20 a los 29 años.
+
+| Edad Grupo | Horas de Lectura |
+|------------|------------------|
+| 20-29      | 02:02:18         |
+| 30-39      | 01:45:50         |
+| 40-49      | 01:51:33         |
+| 50-59      | 01:50:41         |
+| 60-69      | 01:59:23         |

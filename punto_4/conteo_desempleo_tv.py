@@ -1,6 +1,6 @@
 #
 # EQUIPO 10 - ESTADISTICA DESCRIPTIVA
-# Genera una tabla agrupando valores (realiza 5 grupos de edad) para que puedas generar a partir de ella un histograma.
+# De los encuestados ¿quiénes ven más televisión los hombres o las mujeres desempleados?
 #
 
 import pandas as pd
